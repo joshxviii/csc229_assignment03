@@ -6,7 +6,7 @@ public class Algorithm {
         int iterate1 = 0;                                   // 1
         int iterate2 = 0;                                   // 1
         int largest = 0;                                    // 1
-        while (iterate1 < sz - 1) {                         // N
+        while (iterate1 < sz - 1) {                         // N+1
             iterate2++;                                     // N
             if (iterate2 == sz) {                           // N
                 iterate1++;                                 // 1
