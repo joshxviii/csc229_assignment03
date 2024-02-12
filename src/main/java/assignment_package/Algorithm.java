@@ -13,7 +13,7 @@ public class Algorithm {
                 iterate2 = iterate1;                        // 1
                 continue;                                   // 1
             }                                               //
-            int product = arr[iterate1] = arr[iterate2];    // N-1
+            int product = arr[iterate1] * arr[iterate2];    // N-1
             if (product > largest) largest = product;       // N-1
         }                                                   //
         return largest;                                     // 1
