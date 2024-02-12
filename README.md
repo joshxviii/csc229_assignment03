@@ -4,17 +4,16 @@ To find the Big O of this function, I took note of how many times each line ran.
 
 The while loop will run n times. And n will be the size of ‘sz’: 
 
-  2N+(N+1)+2(N-1)+7 
-  
-  5N+6 
+	2N+(N+1)+2(N-1)+7 
+	
+	5N+6 
 
-After removing constants:  
-
-	5N 
+After removing constants:
+	5N
 
 This means the complexity of this function is linear: 
 
-  O(N) 
+	O(N) 
 
  
 
